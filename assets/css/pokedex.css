@@ -145,6 +145,25 @@
     border: none;
     border-radius: 1rem;
 }
+.modal{
+    background-color: #00000044;
+    position: fixed;
+    width:100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: auto;
+    padding-top: 10%;
+    display: none;
+}
+
+.modal-detail{
+    background-color: rgb(255, 18, 18);
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
 
 @media screen and (min-width: 380px) {
     .pokemons {
